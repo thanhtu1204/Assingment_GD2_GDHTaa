@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alanapi.tab:alanapi-tablayout-0.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/alanapi-tablayout-0.0.1.aar/8a9a4603cdf36fd8ce69d5c95e44dd3e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/alanapi-tablayout-0.0.1.aar/8a9a4603cdf36fd8ce69d5c95e44dd3e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alanapi.tab/alanapi-tablayout/0.0.1/a1188d041d60f9aa751fe62d1a0f0841ecd0c949/alanapi-tablayout-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

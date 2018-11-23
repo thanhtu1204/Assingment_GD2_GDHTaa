@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.FragmenQLVTActivity"
+    tools:menu="@menu/item_qlvn">
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:id="@+id/cathe"
+    android:onClick="Onclickcathe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:ignore="OnClick">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_cathe"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cá Thể"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/soluong"
+        android:layout_marginTop="5dp"
+        android:onClick="onclicksoluong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="OnClick">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/_ic_soluong"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số Lượng"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/chiphi"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickqlchiphi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="OnClick">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/money"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chi Phí"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

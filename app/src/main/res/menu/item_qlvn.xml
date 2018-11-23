@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/QLVNcathe"
+                android:icon="@drawable/ic_archive"
+                android:title="@string/itemqlvn1"
+                />
+            <item
+                android:id="@+id/QLVNsoluong"
+                android:icon="@drawable/pig1"
+                android:title="@string/itemqlvn2" />
+            <item
+                android:id="@+id/QLVNchiphi"
+                android:icon="@drawable/pig1"
+                android:title="@string/itemqlvn3" />
+        </group>
+    </menu>

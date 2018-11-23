@@ -1,0 +1,3 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_archive" type="color">@color/color_icon</item>
+</resources>

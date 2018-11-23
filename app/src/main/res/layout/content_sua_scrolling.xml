@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.SuaScrollingActivity"
+    tools:showIn="@layout/activity_sua_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chủng loại:" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Bò"
+            android:inputType="text" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình Trạng sức khỏe!" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Tiêm Phòng"
+            android:inputType="text" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Số Lượng/Tổng Đàn"
+            android:inputType="text" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời Gian Nuôi:" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="6 tháng"
+            android:inputType="text" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại Thức Ăn:" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Cỏ"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Số Lượng"
+            android:inputType="text" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giống/Số Lượng" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Đực"
+            android:inputType="text" />
+        <EditText
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/my_boder_edtex"
+            android:ems="10"
+            android:hint="Số Lượng/Tổng Đàn"
+            android:inputType="text" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
